@@ -509,6 +509,8 @@ address .link {
   letter-spacing: 0.04em;
   padding-left: 16px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
 }
 
 .form-input {
@@ -522,7 +524,7 @@ address .link {
   outline: transparent;
 }
 
-input footer::placeholder {
+.input::placeholder {
   color: #ffffff;
 }
 
