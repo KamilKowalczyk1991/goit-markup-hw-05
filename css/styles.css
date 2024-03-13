@@ -582,7 +582,6 @@ input::placeholder {
 }
 
 .window-modal p {
-  padding: 72px 24px 24px 24px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -592,7 +591,12 @@ input::placeholder {
   margin-bottom: 16px;
 }
 
+.window-modal {
+  padding: 72px 24px 24px 24px;
+}
+
 .form-label-modal {
+  position: relative;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
