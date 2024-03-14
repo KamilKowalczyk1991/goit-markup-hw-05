@@ -487,14 +487,10 @@
         <p class="text-modal">Leave your contacts and we will call you back</p>
         <form>
           <div class="form-modal">
-            <label
-              class="form-label-modal"
-              for="user-name"
-              name="text"
-              content="Name"
-            ></label>
-            <div class="modal-conteiner">
+            <label class="form-label-modal" for="user-name" name="text">
               Name
+            </label>
+            <div class="modal-conteiner">
               <input
                 class="form-input"
                 type="text"
@@ -505,15 +501,17 @@
                 <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
               </svg>
             </div>
-
+          </div>
+          <div class="form-modal">
             <label
               class="form-label-modal"
               for="user-name"
               name="text"
               content="E-mail"
-            ></label>
-            <div class="modal-conteiner">
+            >
               Phone
+            </label>
+            <div class="modal-conteiner">
               <input
                 class="form-input"
                 type="text"
@@ -524,22 +522,22 @@
                 <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
               </svg>
             </div>
-
-            <label class="form-label-modal" for="user-name" name="text"></label>
-            <div class="modal-conteiner">
-              E-mail
-              <input
-                class="form-input"
-                type="text"
-                name="user-name"
-                id="user-name"
-              />
-              <svg class="svg-form" width="18" height="24">
-                <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
-              </svg>
-            </div>
-            <textarea></textarea>
           </div>
+          <label class="form-label-modal" for="user-name" name="text">
+            E-mail
+          </label>
+          <div class="modal-conteiner">
+            <input
+              class="form-input"
+              type="text"
+              name="user-name"
+              id="user-name"
+            />
+            <svg class="svg-form" width="18" height="24">
+              <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
+            </svg>
+          </div>
+          <textarea></textarea>
           <button class="" type="">Send</button>
         </form>
       </div>
