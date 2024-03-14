@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --first-color: #8e8f99;
+}
+
 .link-one::after {
   width: 100%;
   content: "";
@@ -521,7 +525,6 @@ address .link {
   padding-left: 38px;
   width: 100%;
   height: 40px;
-  border-color: #4d5ae5;
   border: 1px solid rgba(46, 47, 66, 0.4);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 4px;
@@ -529,9 +532,9 @@ address .link {
   background-color: transparent;
 }
 
-.from-input:focus {
+input:hover,
+input:focus {
   border-color: #4d5ae5;
-  fill: #4d5ae5;
 }
 
 .form-container {
@@ -632,6 +635,11 @@ address .link {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-conteiner:hover,
+.modal-conteiner:focus {
+  fill: #4d5ae5;
+}
+
 .svg-form {
   position: absolute;
   left: 16px;
@@ -642,4 +650,45 @@ address .link {
 
 .modal-conteiner {
   position: relative;
+}
+
+.comment {
+  width: 100%;
+  height: 120px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  background-color: transparent;
+  padding: 8px 16px;
+  outline: transparent;
+  resize: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.comment:hover,
+.comment:focus {
+  border-color: #4d5ae5;
+}
+
+.checkbox {
+  margin-bottom: 24px;
+}
+
+.checkbox-label:root {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+}
+
+.check-link {
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
