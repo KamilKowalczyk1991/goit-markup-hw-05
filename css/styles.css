@@ -709,3 +709,10 @@ input:focus {
   height: 56px;
   border: none;
 }
+
+.check input:focus,
+.check input:hover {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
