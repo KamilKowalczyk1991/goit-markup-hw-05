@@ -715,3 +715,12 @@ address .link {
 .check-icon {
   justify-content: center;
 }
+
+input:hover,
+input:focus {
+  border-color: #4d5ae5;
+}
+
+.check .check-svg:checked {
+  fill: #4d5ae5;
+}
