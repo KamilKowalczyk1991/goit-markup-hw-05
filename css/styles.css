@@ -293,7 +293,7 @@ address .link {
   margin-bottom: 72px;
 }
 
-.hide {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -623,12 +623,12 @@ address .link {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-conteiner:hover,
-.modal-conteiner:focus {
+.form-input:focus + .svg-form {
   fill: #4d5ae5;
 }
 
 .svg-form {
+  fill: #2e2f42;
   position: absolute;
   left: 16px;
   top: 50%;
@@ -656,7 +656,6 @@ address .link {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.comment:hover,
 .comment:focus {
   border-color: #4d5ae5;
 }
@@ -682,6 +681,7 @@ address .link {
   display: inline-flex;
   align-items: center;
   fill: transparent;
+  justify-content: center;
 }
 
 .comment-modal {
@@ -689,6 +689,7 @@ address .link {
 }
 
 .send-btn {
+  margin: 0 auto;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -707,16 +708,11 @@ address .link {
 }
 
 .check:checked + .checkbox-label span {
-  background-color: var(--pressed-state);
+  background-color: var(--primary);
   border: none;
   fill: #f4f4fd;
 }
 
-.check-icon {
-  justify-content: center;
-}
-
-input:hover,
 input:focus {
   border-color: #4d5ae5;
 }
