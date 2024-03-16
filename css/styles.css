@@ -721,6 +721,7 @@ input:focus {
   border-color: #4d5ae5;
 }
 
-.check .check-svg:checked {
+.check-svg:hover,
+.check-svg:active {
   fill: #4d5ae5;
 }
